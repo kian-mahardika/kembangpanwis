@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "fresh-1",
+    "code": "1",
+    "slug": "fresh-1",
+    "category": "Fresh Flowers",
+    "name": "1",
+    "price": 20000,
+    "thumbnail": "/products/fresh/1.png",
+    "detailImage": "/products/fresh/1.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 1",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-2",
+    "code": "2",
+    "slug": "fresh-2",
+    "category": "Fresh Flowers",
+    "name": "2",
+    "price": 29000,
+    "thumbnail": "/products/fresh/2.png",
+    "detailImage": "/products/fresh/2.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 2",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-3",
+    "code": "3",
+    "slug": "fresh-3",
+    "category": "Fresh Flowers",
+    "name": "3",
+    "price": 35000,
+    "thumbnail": "/products/fresh/3.png",
+    "detailImage": "/products/fresh/3.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 3",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-4",
+    "code": "4",
+    "slug": "fresh-4",
+    "category": "Fresh Flowers",
+    "name": "4",
+    "price": 37000,
+    "thumbnail": "/products/fresh/4.png",
+    "detailImage": "/products/fresh/4.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 4",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-5",
+    "code": "5",
+    "slug": "fresh-5",
+    "category": "Fresh Flowers",
+    "name": "5",
+    "price": 39000,
+    "thumbnail": "/products/fresh/fresh flower 5.jpg",
+    "detailImage": "/products/fresh/fresh flower 5.jpg",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 5",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-6",
+    "code": "6",
+    "slug": "fresh-6",
+    "category": "Fresh Flowers",
+    "name": "6",
+    "price": 47000,
+    "thumbnail": "/products/fresh/6.png",
+    "detailImage": "/products/fresh/6.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 6",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-7",
+    "code": "7",
+    "slug": "fresh-7",
+    "category": "Fresh Flowers",
+    "name": "7",
+    "price": 60000,
+    "thumbnail": "/products/fresh/7.png",
+    "detailImage": "/products/fresh/7.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 7",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-8",
+    "code": "8",
+    "slug": "fresh-8",
+    "category": "Fresh Flowers",
+    "name": "8",
+    "price": 78000,
+    "thumbnail": "/products/fresh/8.png",
+    "detailImage": "/products/fresh/8.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 8",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-9",
+    "code": "9",
+    "slug": "fresh-9",
+    "category": "Fresh Flowers",
+    "name": "9",
+    "price": 89000,
+    "thumbnail": "/products/fresh/9.png",
+    "detailImage": "/products/fresh/9.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 9",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-10",
+    "code": "10",
+    "slug": "fresh-10",
+    "category": "Fresh Flowers",
+    "name": "10",
+    "price": 89000,
+    "thumbnail": "/products/fresh/10.png",
+    "detailImage": "/products/fresh/10.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 10",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-11",
+    "code": "11",
+    "slug": "fresh-11",
+    "category": "Fresh Flowers",
+    "name": "11",
+    "price": 125000,
+    "thumbnail": "/products/fresh/fresh flower 11baru.jpg",
+    "detailImage": "/products/fresh/fresh flower 11baru.jpg",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 11",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-12",
+    "code": "12",
+    "slug": "fresh-12",
+    "category": "Fresh Flowers",
+    "name": "12",
+    "price": 125000,
+    "thumbnail": "/products/fresh/12.png",
+    "detailImage": "/products/fresh/12.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 12",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-13",
+    "code": "13",
+    "slug": "fresh-13",
+    "category": "Fresh Flowers",
+    "name": "13",
+    "price": 169000,
+    "thumbnail": "/products/fresh/13.png",
+    "detailImage": "/products/fresh/13.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 13",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-14",
+    "code": "14",
+    "slug": "fresh-14",
+    "category": "Fresh Flowers",
+    "name": "14",
+    "price": 169000,
+    "thumbnail": "/products/fresh/14.png",
+    "detailImage": "/products/fresh/14.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 14",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-15",
+    "code": "15",
+    "slug": "fresh-15",
+    "category": "Fresh Flowers",
+    "name": "15",
+    "price": 180000,
+    "thumbnail": "/products/fresh/15.png",
+    "detailImage": "/products/fresh/15.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 15",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-16",
+    "code": "16",
+    "slug": "fresh-16",
+    "category": "Fresh Flowers",
+    "name": "16",
+    "price": 190000,
+    "thumbnail": "/products/fresh/16.png",
+    "detailImage": "/products/fresh/16.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 16",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-17",
+    "code": "17",
+    "slug": "fresh-17",
+    "category": "Fresh Flowers",
+    "name": "17",
+    "price": 225000,
+    "thumbnail": "/products/fresh/17.png",
+    "detailImage": "/products/fresh/17.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 17",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-18",
+    "code": "18",
+    "slug": "fresh-18",
+    "category": "Fresh Flowers",
+    "name": "18",
+    "price": 250000,
+    "thumbnail": "/products/fresh/18.png",
+    "detailImage": "/products/fresh/18.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 18",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-19",
+    "code": "19",
+    "slug": "fresh-19",
+    "category": "Fresh Flowers",
+    "name": "19",
+    "price": 269000,
+    "thumbnail": "/products/fresh/19.png",
+    "detailImage": "/products/fresh/19.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 19",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-20",
+    "code": "20",
+    "slug": "fresh-20",
+    "category": "Fresh Flowers",
+    "name": "20",
+    "price": 280000,
+    "thumbnail": "/products/fresh/20.png",
+    "detailImage": "/products/fresh/20.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 20",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-21",
+    "code": "21",
+    "slug": "fresh-21",
+    "category": "Fresh Flowers",
+    "name": "21",
+    "price": 299000,
+    "thumbnail": "/products/fresh/fresh flower 21baru.jpg",
+    "detailImage": "/products/fresh/fresh flower 21baru.jpg",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 21",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-22",
+    "code": "22",
+    "slug": "fresh-22",
+    "category": "Fresh Flowers",
+    "name": "22",
+    "price": 315000,
+    "thumbnail": "/products/fresh/fresh flower 22baru.jpg",
+    "detailImage": "/products/fresh/fresh flower 22baru.jpg",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 22",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-23",
+    "code": "23",
+    "slug": "fresh-23",
+    "category": "Fresh Flowers",
+    "name": "23",
+    "price": 315000,
+    "thumbnail": "/products/fresh/23.png",
+    "detailImage": "/products/fresh/23.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 23",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-24",
+    "code": "24",
+    "slug": "fresh-24",
+    "category": "Fresh Flowers",
+    "name": "24",
+    "price": 395000,
+    "thumbnail": "/products/fresh/24.png",
+    "detailImage": "/products/fresh/24.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 24",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-25",
+    "code": "25",
+    "slug": "fresh-25",
+    "category": "Fresh Flowers",
+    "name": "25",
+    "price": 420000,
+    "thumbnail": "/products/fresh/25.png",
+    "detailImage": "/products/fresh/25.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 25",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-26",
+    "code": "26",
+    "slug": "fresh-26",
+    "category": "Fresh Flowers",
+    "name": "26",
+    "price": 455000,
+    "thumbnail": "/products/fresh/26.png",
+    "detailImage": "/products/fresh/26.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 26",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-27",
+    "code": "27",
+    "slug": "fresh-27",
+    "category": "Fresh Flowers",
+    "name": "27",
+    "price": 455000,
+    "thumbnail": "/products/fresh/27.png",
+    "detailImage": "/products/fresh/27.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 27",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-28",
+    "code": "28",
+    "slug": "fresh-28",
+    "category": "Fresh Flowers",
+    "name": "28",
+    "price": 455000,
+    "thumbnail": "/products/fresh/28.png",
+    "detailImage": "/products/fresh/28.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 28",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-29",
+    "code": "29",
+    "slug": "fresh-29",
+    "category": "Fresh Flowers",
+    "name": "29",
+    "price": 520000,
+    "thumbnail": "/products/fresh/29.png",
+    "detailImage": "/products/fresh/29.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 29",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-30",
+    "code": "30",
+    "slug": "fresh-30",
+    "category": "Fresh Flowers",
+    "name": "30",
+    "price": 520000,
+    "thumbnail": "/products/fresh/30.png",
+    "detailImage": "/products/fresh/30.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 30",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-31",
+    "code": "31",
+    "slug": "fresh-31",
+    "category": "Fresh Flowers",
+    "name": "31",
+    "price": 585000,
+    "thumbnail": "/products/fresh/31.png",
+    "detailImage": "/products/fresh/31.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 31",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-32",
+    "code": "32",
+    "slug": "fresh-32",
+    "category": "Fresh Flowers",
+    "name": "32",
+    "price": 630000,
+    "thumbnail": "/products/fresh/32.png",
+    "detailImage": "/products/fresh/32.png",
+    "description": "",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers 32",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-33",
+    "code": "33",
+    "slug": "fresh-33",
+    "category": "Fresh Flowers",
+    "name": "33",
+    "price": 175000,
+    "thumbnail": "/products/fresh/33.png",
+    "detailImage": "/products/fresh/33.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-34",
+    "code": "34",
+    "slug": "fresh-34",
+    "category": "Fresh Flowers",
+    "name": "34",
+    "price": 215000,
+    "thumbnail": "/products/fresh/34.png",
+    "detailImage": "/products/fresh/34.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-35",
+    "code": "35",
+    "slug": "fresh-35",
+    "category": "Fresh Flowers",
+    "name": "35",
+    "price": 227000,
+    "thumbnail": "/products/fresh/thumb35 baru.jpg",
+    "detailImage": "/products/fresh/thumb35 baru.jpg",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-36",
+    "code": "36",
+    "slug": "fresh-36",
+    "category": "Fresh Flowers",
+    "name": "36",
+    "price": 235000,
+    "thumbnail": "/products/fresh/36.png",
+    "detailImage": "/products/fresh/36.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-37",
+    "code": "37",
+    "slug": "fresh-37",
+    "category": "Fresh Flowers",
+    "name": "37",
+    "price": 240000,
+    "thumbnail": "/products/fresh/37.png",
+    "detailImage": "/products/fresh/37.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-38",
+    "code": "38",
+    "slug": "fresh-38",
+    "category": "Fresh Flowers",
+    "name": "38",
+    "price": 255000,
+    "thumbnail": "/products/fresh/38.png",
+    "detailImage": "/products/fresh/38.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-39",
+    "code": "39",
+    "slug": "fresh-39",
+    "category": "Fresh Flowers",
+    "name": "39",
+    "price": 260000,
+    "thumbnail": "/products/fresh/39.png",
+    "detailImage": "/products/fresh/39.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-40",
+    "code": "40",
+    "slug": "fresh-40",
+    "category": "Fresh Flowers",
+    "name": "40",
+    "price": 260000,
+    "thumbnail": "/products/fresh/40.png",
+    "detailImage": "/products/fresh/40.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-41",
+    "code": "41",
+    "slug": "fresh-41",
+    "category": "Fresh Flowers",
+    "name": "41",
+    "price": 325000,
+    "thumbnail": "/products/fresh/41.png",
+    "detailImage": "/products/fresh/41.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-42",
+    "code": "42",
+    "slug": "fresh-42",
+    "category": "Fresh Flowers",
+    "name": "42",
+    "price": 390000,
+    "thumbnail": "/products/fresh/42.png",
+    "detailImage": "/products/fresh/42.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-43",
+    "code": "43",
+    "slug": "fresh-43",
+    "category": "Fresh Flowers",
+    "name": "43",
+    "price": 455000,
+    "thumbnail": "/products/fresh/43.png",
+    "detailImage": "/products/fresh/43.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "fresh-44",
+    "code": "44",
+    "slug": "fresh-44",
+    "category": "Fresh Flowers",
+    "name": "44",
+    "price": 475000,
+    "thumbnail": "/products/fresh/44.png",
+    "detailImage": "/products/fresh/44.png",
+    "description": "Thumbelina",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-1",
+    "code": "AF-1",
+    "slug": "artificial-af-1",
+    "category": "Artificial Flowers",
+    "name": "AF-1",
+    "price": 27500,
+    "thumbnail": "/products/artificial/AF-1.png",
+    "detailImage": "/products/artificial/AF-1.png",
+    "description": "Small\n1 Tangkai",
+    "customization": "Pilihan warna bunga: Merah, Putih, Biru, Ungu. Pilihan warna wrap: Pink, Navy, Hitam, Maroon, Sage.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-2",
+    "code": "AF-2",
+    "slug": "artificial-af-2",
+    "category": "Artificial Flowers",
+    "name": "AF-2",
+    "price": 72000,
+    "thumbnail": "/products/artificial/AF-2.png",
+    "detailImage": "/products/artificial/AF-2.png",
+    "description": "Small\n3 Tangkai",
+    "customization": "Pilihan warna bunga: Merah, Putih, Biru, Ungu. Pilihan warna wrap: Pink, Navy, Hitam, Maroon, Sage.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-3",
+    "code": "AF-3",
+    "slug": "artificial-af-3",
+    "category": "Artificial Flowers",
+    "name": "AF-3",
+    "price": 93000,
+    "thumbnail": "/products/artificial/AF-3.png",
+    "detailImage": "/products/artificial/AF-3.png",
+    "description": "Small\n6 Tangkai",
+    "customization": "Pilihan warna bunga: Merah, Putih, Biru, Ungu. Pilihan warna wrap: Pink, Navy, Hitam, Maroon, Sage.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-4",
+    "code": "AF-4",
+    "slug": "artificial-af-4",
+    "category": "Artificial Flowers",
+    "name": "AF-4",
+    "price": 90000,
+    "thumbnail": "/products/artificial/AF-4.png",
+    "detailImage": "/products/artificial/AF-4.png",
+    "description": "Medium\n45 x 20 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-5",
+    "code": "AF-5",
+    "slug": "artificial-af-5",
+    "category": "Artificial Flowers",
+    "name": "AF-5",
+    "price": 128000,
+    "thumbnail": "/products/artificial/AF-5.png",
+    "detailImage": "/products/artificial/AF-5.png",
+    "description": "Medium to Large\n50 x 20 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Medium to Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-6",
+    "code": "AF-6",
+    "slug": "artificial-af-6",
+    "category": "Artificial Flowers",
+    "name": "AF-6",
+    "price": 212000,
+    "thumbnail": "/products/artificial/AF-6.png",
+    "detailImage": "/products/artificial/AF-6.png",
+    "description": "Large\n58 x 30 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-7",
+    "code": "AF-7",
+    "slug": "artificial-af-7",
+    "category": "Artificial Flowers",
+    "name": "AF-7",
+    "price": 312000,
+    "thumbnail": "/products/artificial/AF-7.png",
+    "detailImage": "/products/artificial/AF-7.png",
+    "description": "Extra Large\n63 x 30 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Extra Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-8",
+    "code": "AF-8",
+    "slug": "artificial-af-8",
+    "category": "Artificial Flowers",
+    "name": "AF-8",
+    "price": 167000,
+    "thumbnail": "/products/artificial/AF-8.png",
+    "detailImage": "/products/artificial/AF-8.png",
+    "description": "Thumbelina Medium\n55 x 25 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-9",
+    "code": "AF-9",
+    "slug": "artificial-af-9",
+    "category": "Artificial Flowers",
+    "name": "AF-9",
+    "price": 167000,
+    "thumbnail": "/products/artificial/AF-9.png",
+    "detailImage": "/products/artificial/AF-9.png",
+    "description": "Thumbelina Medium\n55 x 25 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-10",
+    "code": "AF-10",
+    "slug": "artificial-af-10",
+    "category": "Artificial Flowers",
+    "name": "AF-10",
+    "price": 312000,
+    "thumbnail": "/products/artificial/AF-10.png",
+    "detailImage": "/products/artificial/AF-10.png",
+    "description": "Thumbelina Large\n65 x 30 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "artificial-af-11",
+    "code": "AF-11",
+    "slug": "artificial-af-11",
+    "category": "Artificial Flowers",
+    "name": "AF-11",
+    "price": 312000,
+    "thumbnail": "/products/artificial/AF-11.png",
+    "detailImage": "/products/artificial/AF-11.png",
+    "description": "Thumbelina Large\n65 x 30 cm",
+    "customization": "Warna bunga bebas custom tone, misalnya pink, biru, dan lainnya. Setiap tone terdiri dari 2 sampai 3 jenis warna.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Thumbelina Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "boneka-afb-1",
+    "code": "AFB-1",
+    "slug": "boneka-afb-1",
+    "category": "Artificial Boneka",
+    "name": "AFB-1",
+    "price": 50000,
+    "thumbnail": "/products/boneka/AFB-1.png",
+    "detailImage": "/products/boneka/AFB-1.png",
+    "description": "Small\nRose 1 tangkai",
+    "customization": "Pilihan warna bunga: Merah, Putih, Biru, Ungu. Pilihan warna wrap: Pink, Navy, Hitam, Maroon, Sage.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "boneka-afb-2",
+    "code": "AFB-2",
+    "slug": "boneka-afb-2",
+    "category": "Artificial Boneka",
+    "name": "AFB-2",
+    "price": 90000,
+    "thumbnail": "/products/boneka/AFB-2.png",
+    "detailImage": "/products/boneka/AFB-2.png",
+    "description": "Medium\nRose 3 tangkai",
+    "customization": "Pilihan warna bunga: Merah, Putih, Biru, Ungu. Pilihan warna wrap: Pink, Navy, Hitam, Maroon, Sage.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "boneka-afb-3",
+    "code": "AFB-3",
+    "slug": "boneka-afb-3",
+    "category": "Artificial Boneka",
+    "name": "AFB-3",
+    "price": 140000,
+    "thumbnail": "/products/boneka/AFB-3.png",
+    "detailImage": "/products/boneka/AFB-3.png",
+    "description": "Large\nRose 10 tangkai",
+    "customization": "Pilihan warna bunga: Merah, Putih, Biru, Ungu. Pilihan warna wrap: Pink, Navy, Hitam, Maroon, Sage.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-1",
+    "code": "KB-1",
+    "slug": "kawat-bulu-kb-1",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-1",
+    "price": 45000,
+    "thumbnail": "/products/kawat-bulu/KB-1.png",
+    "detailImage": "/products/kawat-bulu/KB-1.png",
+    "description": "Tiger Lily",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Tiger Lily",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-2",
+    "code": "KB-2",
+    "slug": "kawat-bulu-kb-2",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-2",
+    "price": 45000,
+    "thumbnail": "/products/kawat-bulu/KB-2.png",
+    "detailImage": "/products/kawat-bulu/KB-2.png",
+    "description": "Mini Lily",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Mini Lily",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-3",
+    "code": "KB-3",
+    "slug": "kawat-bulu-kb-3",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-3",
+    "price": 68000,
+    "thumbnail": "/products/kawat-bulu/KB-3.png",
+    "detailImage": "/products/kawat-bulu/KB-3.png",
+    "description": "Hydrangea",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Hydrangea",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-4",
+    "code": "KB-4",
+    "slug": "kawat-bulu-kb-4",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-4",
+    "price": 94000,
+    "thumbnail": "/products/kawat-bulu/KB-4.png",
+    "detailImage": "/products/kawat-bulu/KB-4.png",
+    "description": "Tulip",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Tulip",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-5",
+    "code": "KB-5",
+    "slug": "kawat-bulu-kb-5",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-5",
+    "price": 113000,
+    "thumbnail": "/products/kawat-bulu/KB-5.png",
+    "detailImage": "/products/kawat-bulu/KB-5.png",
+    "description": "Sakura Bloom",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Sakura Bloom",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-6",
+    "code": "KB-6",
+    "slug": "kawat-bulu-kb-6",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-6",
+    "price": 125000,
+    "thumbnail": "/products/kawat-bulu/KB-6.png",
+    "detailImage": "/products/kawat-bulu/KB-6.png",
+    "description": "Lily Butterfly",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Lily Butterfly",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-7",
+    "code": "KB-7",
+    "slug": "kawat-bulu-kb-7",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-7",
+    "price": 200000,
+    "thumbnail": "/products/kawat-bulu/KB-7.png",
+    "detailImage": "/products/kawat-bulu/KB-7.png",
+    "description": "Rounded Rose",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Rounded Rose",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "kawat-bulu-kb-8",
+    "code": "KB-8",
+    "slug": "kawat-bulu-kb-8",
+    "category": "Buket Kawat Bulu",
+    "name": "KB-8",
+    "price": 345000,
+    "thumbnail": "/products/kawat-bulu/KB-8.png",
+    "detailImage": "/products/kawat-bulu/KB-8.png",
+    "description": "Large Coquette",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large Coquette",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-1",
+    "code": "PS-1",
+    "slug": "pita-satin-ps-1",
+    "category": "Buket Pita Satin",
+    "name": "PS-1",
+    "price": 84000,
+    "thumbnail": "/products/pita-satin/PS-1.png",
+    "detailImage": "/products/pita-satin/PS-1.png",
+    "description": "Small\n10 Tangkai",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-2",
+    "code": "PS-2",
+    "slug": "pita-satin-ps-2",
+    "category": "Buket Pita Satin",
+    "name": "PS-2",
+    "price": 84000,
+    "thumbnail": "/products/pita-satin/PS-2.png",
+    "detailImage": "/products/pita-satin/PS-2.png",
+    "description": "Small\n10 Tangkai",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-3",
+    "code": "PS-3",
+    "slug": "pita-satin-ps-3",
+    "category": "Buket Pita Satin",
+    "name": "PS-3",
+    "price": 95000,
+    "thumbnail": "/products/pita-satin/PS-3.png",
+    "detailImage": "/products/pita-satin/PS-3.png",
+    "description": "Small\n10 Tangkai",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-4",
+    "code": "PS-4",
+    "slug": "pita-satin-ps-4",
+    "category": "Buket Pita Satin",
+    "name": "PS-4",
+    "price": 125000,
+    "thumbnail": "/products/pita-satin/PS-4.png",
+    "detailImage": "/products/pita-satin/PS-4.png",
+    "description": "Medium\n18-25 Tangkai",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-5",
+    "code": "PS-5",
+    "slug": "pita-satin-ps-5",
+    "category": "Buket Pita Satin",
+    "name": "PS-5",
+    "price": 125000,
+    "thumbnail": "/products/pita-satin/PS-5.png",
+    "detailImage": "/products/pita-satin/PS-5.png",
+    "description": "Medium\n18-25 Tangkai",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-6",
+    "code": "PS-6",
+    "slug": "pita-satin-ps-6",
+    "category": "Buket Pita Satin",
+    "name": "PS-6",
+    "price": 125000,
+    "thumbnail": "/products/pita-satin/PS-6.png",
+    "detailImage": "/products/pita-satin/PS-6.png",
+    "description": "Medium\n18-25 Tangkai",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-7",
+    "code": "PS-7",
+    "slug": "pita-satin-ps-7",
+    "category": "Buket Pita Satin",
+    "name": "PS-7",
+    "price": 250000,
+    "thumbnail": "/products/pita-satin/PS-7.png",
+    "detailImage": "/products/pita-satin/PS-7.png",
+    "description": "Large\n30-40 Tangkai; termasuk pita, ucapan, dan 1 kupu-kupu",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-8",
+    "code": "PS-8",
+    "slug": "pita-satin-ps-8",
+    "category": "Buket Pita Satin",
+    "name": "PS-8",
+    "price": 275000,
+    "thumbnail": "/products/pita-satin/PS-8.png",
+    "detailImage": "/products/pita-satin/PS-8.png",
+    "description": "Large\n30-40 Tangkai; free mahkota, pita, dan kartu ucapan",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "pita-satin-ps-9",
+    "code": "PS-9",
+    "slug": "pita-satin-ps-9",
+    "category": "Buket Pita Satin",
+    "name": "PS-9",
+    "price": 300000,
+    "thumbnail": "/products/pita-satin/PS-9.png",
+    "detailImage": "/products/pita-satin/PS-9.png",
+    "description": "Large\n50 Tangkai; termasuk pita, kartu ucapan, dan kupu-kupu",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-1",
+    "code": "SB-1",
+    "slug": "snack-sb-1",
+    "category": "Snack Bouquet",
+    "name": "SB-1",
+    "price": 27000,
+    "thumbnail": "/products/snack/SB-1.png",
+    "detailImage": "/products/snack/SB-1.png",
+    "description": "Small",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-2",
+    "code": "SB-2",
+    "slug": "snack-sb-2",
+    "category": "Snack Bouquet",
+    "name": "SB-2",
+    "price": 35000,
+    "thumbnail": "/products/snack/SB-2.png",
+    "detailImage": "/products/snack/SB-2.png",
+    "description": "Small",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-3",
+    "code": "SB-3",
+    "slug": "snack-sb-3",
+    "category": "Snack Bouquet",
+    "name": "SB-3",
+    "price": 35000,
+    "thumbnail": "/products/snack/SB-3.png",
+    "detailImage": "/products/snack/SB-3.png",
+    "description": "Small",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-4",
+    "code": "SB-4",
+    "slug": "snack-sb-4",
+    "category": "Snack Bouquet",
+    "name": "SB-4",
+    "price": 52000,
+    "thumbnail": "/products/snack/SB-4.png",
+    "detailImage": "/products/snack/SB-4.png",
+    "description": "Medium",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-5",
+    "code": "SB-5",
+    "slug": "snack-sb-5",
+    "category": "Snack Bouquet",
+    "name": "SB-5",
+    "price": 52000,
+    "thumbnail": "/products/snack/SB-5.png",
+    "detailImage": "/products/snack/SB-5.png",
+    "description": "Medium",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-6",
+    "code": "SB-6",
+    "slug": "snack-sb-6",
+    "category": "Snack Bouquet",
+    "name": "SB-6",
+    "price": 52000,
+    "thumbnail": "/products/snack/SB-6.png",
+    "detailImage": "/products/snack/SB-6.png",
+    "description": "Medium",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-7",
+    "code": "SB-7",
+    "slug": "snack-sb-7",
+    "category": "Snack Bouquet",
+    "name": "SB-7",
+    "price": 60000,
+    "thumbnail": "/products/snack/SB-7.png",
+    "detailImage": "/products/snack/SB-7.png",
+    "description": "Large",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-8",
+    "code": "SB-8",
+    "slug": "snack-sb-8",
+    "category": "Snack Bouquet",
+    "name": "SB-8",
+    "price": 65000,
+    "thumbnail": "/products/snack/SB-8.png",
+    "detailImage": "/products/snack/SB-8.png",
+    "description": "Large",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "snack-sb-9",
+    "code": "SB-9",
+    "slug": "snack-sb-9",
+    "category": "Snack Bouquet",
+    "name": "SB-9",
+    "price": 95000,
+    "thumbnail": "/products/snack/SB9 baru.jpg",
+    "detailImage": "/products/snack/SB9 baru.jpg",
+    "description": "Large",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "papan-bunga-pb-1",
+    "code": "PB-1",
+    "slug": "papan-bunga-pb-1",
+    "category": "Papan Bunga",
+    "name": "PB-1",
+    "price": 279000,
+    "thumbnail": "/products/papan-bunga/PB-1.png",
+    "detailImage": "/products/papan-bunga/PB-1.png",
+    "description": "Korsase",
+    "customization": "Untuk pemesanan lebih dari 4 titik dapat menghubungi Contact Person (CP) tertera.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "Korsase",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "papan-bunga-pb-2",
+    "code": "PB-2",
+    "slug": "papan-bunga-pb-2",
+    "category": "Papan Bunga",
+    "name": "PB-2",
+    "price": 359000,
+    "thumbnail": "/products/papan-bunga/PB-2.png",
+    "detailImage": "/products/papan-bunga/PB-2.png",
+    "description": "1 Titik",
+    "customization": "Untuk pemesanan lebih dari 4 titik dapat menghubungi Contact Person (CP) tertera.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "1 Titik",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "papan-bunga-pb-3",
+    "code": "PB-3",
+    "slug": "papan-bunga-pb-3",
+    "category": "Papan Bunga",
+    "name": "PB-3",
+    "price": 429000,
+    "thumbnail": "/products/papan-bunga/PB-3.png",
+    "detailImage": "/products/papan-bunga/PB-3.png",
+    "description": "2 Titik",
+    "customization": "Untuk pemesanan lebih dari 4 titik dapat menghubungi Contact Person (CP) tertera.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "2 Titik",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "papan-bunga-pb-4",
+    "code": "PB-4",
+    "slug": "papan-bunga-pb-4",
+    "category": "Papan Bunga",
+    "name": "PB-4",
+    "price": 499000,
+    "thumbnail": "/products/papan-bunga/PB-4.png",
+    "detailImage": "/products/papan-bunga/PB-4.png",
+    "description": "4 Titik",
+    "customization": "Untuk pemesanan lebih dari 4 titik dapat menghubungi Contact Person (CP) tertera.",
+    "tags": [
+      "wisuda",
+      "custom"
+    ],
+    "available": true,
+    "legacyName": "4 Titik",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "bloom-box-bb-1",
+    "code": "BB-1",
+    "slug": "bloom-box-bb-1",
+    "category": "Bloom Box",
+    "name": "BB-1",
+    "price": 113000,
+    "thumbnail": "/products/bloom-box/BB-1.jpg",
+    "detailImage": "/products/bloom-box/BB-1.jpg",
+    "description": "Small\nBunga 4; Balon mini; Box S 8,5 cm",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Small",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "bloom-box-bb-2",
+    "code": "BB-2",
+    "slug": "bloom-box-bb-2",
+    "category": "Bloom Box",
+    "name": "BB-2",
+    "price": 135000,
+    "thumbnail": "/products/bloom-box/BB-2.jpg",
+    "detailImage": "/products/bloom-box/BB-2.jpg",
+    "description": "Medium\nBunga 6; Balon Sedang; Box M 11 cm",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Medium",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "bloom-box-bb-3",
+    "code": "BB-3",
+    "slug": "bloom-box-bb-3",
+    "category": "Bloom Box",
+    "name": "BB-3",
+    "price": 180000,
+    "thumbnail": "/products/bloom-box/BB-3.jpg",
+    "detailImage": "/products/bloom-box/BB-3.jpg",
+    "description": "Large\nBunga 8; Balon Sedang; Box L 15 cm",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Large",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "bloom-box-bb-4",
+    "code": "BB-4",
+    "slug": "bloom-box-bb-4",
+    "category": "Bloom Box",
+    "name": "BB-4",
+    "price": 400000,
+    "thumbnail": "/products/bloom-box/BB-4.png",
+    "detailImage": "/products/bloom-box/BB-4.png",
+    "description": "Fresh Flowers",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "bloom-box-bb-5",
+    "code": "BB-5",
+    "slug": "bloom-box-bb-5",
+    "category": "Bloom Box",
+    "name": "BB-5",
+    "price": 500000,
+    "thumbnail": "/products/bloom-box/BB-5.png",
+    "detailImage": "/products/bloom-box/BB-5.png",
+    "description": "Fresh Flowers",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  },
+  {
+    "id": "bloom-box-bb-6",
+    "code": "BB-6",
+    "slug": "bloom-box-bb-6",
+    "category": "Bloom Box",
+    "name": "BB-6",
+    "price": 525000,
+    "thumbnail": "/products/bloom-box/BB-6.png",
+    "detailImage": "/products/bloom-box/BB-6.png",
+    "description": "Fresh Flowers",
+    "customization": "",
+    "tags": [
+      "wisuda"
+    ],
+    "available": true,
+    "legacyName": "Fresh Flowers",
+    "imagePosition": "50% 0%",
+    "detailImagePosition": "50% 0%"
+  }
+]

@@ -1,0 +1,318 @@
+/* ========================================================================== */
+/* Kembang Panwis final revision layer                                       */
+/* ========================================================================== */
+
+/* -------------------------------------------------------------------------- */
+/* 1. Signature opening: Bouquet Wrap Unfold                                  */
+/* -------------------------------------------------------------------------- */
+.brand-preloader{
+ position:fixed;
+ inset:0;
+ z-index:9999;
+ display:grid;
+ place-items:center;
+ pointer-events:auto;
+ overflow:hidden;
+ animation:loader-failsafe 0s 5s forwards;
+}
+.brand-preloader.is-interactive{pointer-events:none}
+.wrap-fold{
+ position:absolute;
+ inset:-2%;
+ will-change:transform;
+ backface-visibility:hidden;
+ transition:transform .92s cubic-bezier(.77,0,.175,1);
+}
+.wrap-fold::after{
+ content:"";
+ position:absolute;
+ inset:0;
+ pointer-events:none;
+ background:linear-gradient(115deg,transparent 25%,rgba(255,255,255,.025) 52%,transparent 74%);
+}
+.wrap-fold-primary{
+ z-index:1;
+ clip-path:polygon(0 0,100% 0,73% 100%,0 100%);
+ transform-origin:22% 32%;
+ background:linear-gradient(145deg,var(--burgundy) 0%,#54131e 60%,#3e0b14 100%);
+}
+.wrap-fold-secondary{
+ z-index:1;
+ clip-path:polygon(28% 0,100% 0,100% 100%,0 100%);
+ transform-origin:78% 68%;
+ background:linear-gradient(325deg,var(--burgundy) 0%,#50101b 58%,#3c0a13 100%);
+}
+.is-opening .wrap-fold-primary{transform:translate3d(-105%,-14%,0) rotate(-1.2deg)}
+.is-opening .wrap-fold-secondary{transform:translate3d(105%,14%,0) rotate(1.2deg)}
+.fold-seam{
+ position:absolute;
+ z-index:2;
+ left:50%;
+ top:50%;
+ width:1px;
+ height:145vmax;
+ transform:translate(-50%,-50%) rotate(14deg);
+ background:linear-gradient(to bottom,transparent 8%,rgba(201,162,39,.08) 25%,rgba(233,203,123,.62) 50%,rgba(201,162,39,.08) 75%,transparent 92%);
+ box-shadow:0 0 14px rgba(201,162,39,.12);
+ opacity:.55;
+ transition:opacity .22s ease,filter .22s ease;
+ pointer-events:none;
+}
+.is-opening .fold-seam{opacity:0;filter:blur(2px)}
+.preloader-logo{
+ position:relative;
+ z-index:3;
+ width:180px;
+ line-height:0;
+ animation:logo-breathe .7s ease-in-out both;
+ transition:opacity .2s ease,transform .2s ease;
+}
+.preloader-logo img{width:100%;height:auto;filter:url(#panwis-white-matte)}
+.is-opening .preloader-logo{opacity:0;transform:scale(.985);animation:none}
+.route-loading-background{position:fixed;inset:0;background:var(--burgundy)}
+@keyframes logo-breathe{0%{opacity:0;transform:scale(.96)}60%{opacity:1;transform:scale(1.018)}100%{opacity:1;transform:scale(1)}}
+@keyframes loader-failsafe{to{visibility:hidden;pointer-events:none}}
+
+/* -------------------------------------------------------------------------- */
+/* 2. Hero stagger: assemble the hero while the wrap is opening               */
+/* -------------------------------------------------------------------------- */
+/* Suppress the legacy multi-second hero sequence. The opening sequence owns
+   the timing so there is only one coherent cinematic entrance. */
+.opening-sequence .hero-logo-reveal,
+.opening-sequence .hero-tagline-reveal,
+.opening-sequence .hero-cta-reveal,
+.opening-sequence .hero-opening-note,
+.opening-sequence .hero-divider,
+.opening-sequence .hero-ornament-layer,
+.opening-sequence .hero-floral-layer,
+.opening-sequence .hero-scroll-wrapper,
+.opening-sequence .hero-atmosphere{animation:none}
+.opening-sequence .hero-asa-glow{display:none}
+
+/* Loading state: hero artwork exists underneath, but the meaningful layers
+   wait to enter until the diagonal wrap starts opening. */
+.opening-sequence[data-intro-phase="loading"] .hero-edge-frame,
+.opening-sequence[data-intro-phase="loading"] .hero-ornament-layer,
+.opening-sequence[data-intro-phase="loading"] .hero-floral-layer,
+.opening-sequence[data-intro-phase="loading"] .hero-opening-note,
+.opening-sequence[data-intro-phase="loading"] .hero-logo-reveal,
+.opening-sequence[data-intro-phase="loading"] .hero-divider,
+.opening-sequence[data-intro-phase="loading"] .hero-tagline-reveal,
+.opening-sequence[data-intro-phase="loading"] .hero-cta-reveal,
+.opening-sequence[data-intro-phase="loading"] .hero-scroll-wrapper{opacity:0}
+.opening-sequence[data-intro-phase="loading"] .hero-ornament-layer{translate:-12px -8px}
+.opening-sequence[data-intro-phase="loading"] .hero-floral-layer{translate:12px 0}
+.opening-sequence[data-intro-phase="loading"] .hero-opening-note,
+.opening-sequence[data-intro-phase="loading"] .hero-logo-reveal,
+.opening-sequence[data-intro-phase="loading"] .hero-tagline-reveal,
+.opening-sequence[data-intro-phase="loading"] .hero-cta-reveal,
+.opening-sequence[data-intro-phase="loading"] .hero-scroll-wrapper{translate:0 9px}
+.opening-sequence[data-intro-phase="loading"] .hero-divider{scale:0 1}
+.opening-sequence[data-intro-phase="loading"] .hero-gold-wave{clip-path:inset(0 100% 0 0)}
+
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-atmosphere{animation:kp-atmosphere-in .5s ease both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-edge-frame{animation:kp-frame-in .5s .08s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-ornament-layer{animation:kp-layer-in .55s .14s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-floral-layer{animation:kp-floral-in .58s .24s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-gold-wave{animation:kp-wave-reveal .62s .30s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-opening-note{animation:kp-content-rise .42s .34s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-logo-reveal{animation:kp-content-rise .58s .40s cubic-bezier(.22,.72,.25,1) both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-divider{animation:kp-divider-in .42s .48s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-tagline-reveal{animation:kp-content-rise .5s .52s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-cta-reveal{animation:kp-content-rise .38s .64s ease-out both}
+.opening-sequence:is([data-intro-phase="opening"],[data-intro-phase="interactive"]) .hero-scroll-wrapper{animation:kp-content-rise .34s .72s ease-out both}
+
+@keyframes kp-atmosphere-in{from{opacity:.65}to{opacity:1}}
+@keyframes kp-frame-in{from{opacity:0;translate:0 6px}to{opacity:.5;translate:0 0}}
+@keyframes kp-layer-in{from{opacity:0;translate:-12px -8px}to{opacity:1;translate:0 0}}
+@keyframes kp-floral-in{from{opacity:0;translate:12px 0}to{opacity:1;translate:0 0}}
+@keyframes kp-wave-reveal{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes kp-content-rise{from{opacity:0;translate:0 9px}to{opacity:1;translate:0 0}}
+@keyframes kp-divider-in{from{opacity:0;scale:0 1}to{opacity:1;scale:1 1}}
+
+/* Once the overlay is gone, lock every staggered element into its final state
+   so no legacy delayed animation can replay. */
+.opening-sequence[data-intro-phase="done"] .hero-atmosphere,
+.opening-sequence[data-intro-phase="done"] .hero-ornament-layer,
+.opening-sequence[data-intro-phase="done"] .hero-floral-layer,
+.opening-sequence[data-intro-phase="done"] .hero-opening-note,
+.opening-sequence[data-intro-phase="done"] .hero-logo-reveal,
+.opening-sequence[data-intro-phase="done"] .hero-divider,
+.opening-sequence[data-intro-phase="done"] .hero-tagline-reveal,
+.opening-sequence[data-intro-phase="done"] .hero-cta-reveal,
+.opening-sequence[data-intro-phase="done"] .hero-scroll-wrapper{opacity:1;translate:0 0}
+.opening-sequence[data-intro-phase="done"] .hero-edge-frame{opacity:.5;translate:0 0}
+.opening-sequence[data-intro-phase="done"] .hero-divider{scale:1 1}
+.opening-sequence[data-intro-phase="done"] .hero-gold-wave{clip-path:inset(0)}
+
+/* -------------------------------------------------------------------------- */
+/* 3. Product cards / image treatment                                         */
+/* -------------------------------------------------------------------------- */
+.product-photo{aspect-ratio:5/4;background:transparent;overflow:hidden}
+.product-photo img{object-fit:cover;object-position:center top}
+.corner-mask{display:none}
+.product-card{border-radius:4px;background:#fffaf3;transform-style:preserve-3d;transition:background-color .35s ease,box-shadow .35s ease,translate .35s ease;overflow:hidden}
+.card-open{height:100%;display:flex;flex-direction:column}
+.card-info{width:100%;padding:17px 18px 19px;flex:1;display:flex;flex-direction:column;min-height:132px}
+.card-title h3{font:500 31px/1.15 var(--serif);color:inherit;white-space:nowrap}
+.card-title,.card-meta,.price{transition:color .35s ease,transform .35s ease}
+.card-info .price{margin-top:auto}
+.card-open:hover .product-photo img{transform:none}
+.product-grid{align-items:stretch}
+.product-card:focus-within{outline:2px solid var(--burgundy);outline-offset:4px}
+.card-open:focus-visible{outline-offset:-3px}
+@media(hover:hover) and (pointer:fine){
+ .product-card:hover{background:var(--burgundy);translate:0 -5px;box-shadow:0 18px 32px #4a0f1833}
+ .product-card:hover .card-title{color:#fff;transform:translateZ(8px)}
+ .product-card:hover .card-meta,.product-card:hover .card-meta>span,.product-card:hover .price{color:#f8f2e8}
+ .product-card:hover .product-photo img{transform:scale(1.06)}
+ .product-card:hover .card-title svg{opacity:1}
+ .documentation-grid figure:hover img{transform:scale(1.025)}
+ .documentation-grid figure:hover{box-shadow:0 8px 20px #4a0f181a}
+}
+
+/* -------------------------------------------------------------------------- */
+/* 4. Global product-detail popup architecture                                */
+/* -------------------------------------------------------------------------- */
+.dialog:not(.drawer) .dialog-surface{max-height:90vh;max-height:90dvh;overflow-y:auto;overflow-x:hidden;scroll-padding-top:64px}
+.product-detail{
+ display:grid;
+ grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+ align-items:start;
+ width:100%;
+ min-width:0;
+}
+.detail-photo,
+.detail-info{min-width:0;max-width:100%;box-sizing:border-box}
+.detail-photo{
+ width:100%;
+ height:auto;
+ min-height:0;
+ aspect-ratio:4/5;
+ align-self:start;
+ overflow:hidden;
+}
+.detail-info{
+ width:100%;
+ display:flex;
+ flex-direction:column;
+ min-height:0;
+ padding:52px 40px 36px;
+ overflow-wrap:break-word;
+}
+.detail-copy{flex:1}
+.detail-info .order-actions{margin-top:20px}
+.detail-info .detail-bottom{flex-shrink:0}
+.dialog .close-button{position:sticky;top:12px;margin:12px 12px -56px auto;display:grid;width:44px;height:44px}
+.wishlist-product .product-photo{aspect-ratio:1/1}
+.photo-placeholder{background:#eee4d8}
+
+/* Tablet and small laptops intentionally stack instead of forcing a fragile
+   two-column modal. */
+@media(min-width:768px) and (max-width:1099px){
+ .dialog:not(.drawer){width:min(780px,94vw);max-width:94vw}
+ .product-detail{grid-template-columns:minmax(0,1fr)}
+ .detail-photo{width:100%;height:auto;min-height:0;aspect-ratio:4/3;max-height:none}
+ .detail-info{width:100%;min-height:0;padding:32px}
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5. Documentation gallery                                                   */
+/* -------------------------------------------------------------------------- */
+.documentation{max-width:1380px;padding:0 4.4vw 70px;margin:auto}
+.documentation h2{font:500 48px/1.2 var(--serif);color:var(--burgundy);padding-top:35px;margin-bottom:25px;border-top:1px solid var(--line)}
+.documentation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.documentation-grid figure{margin:0;aspect-ratio:16/9;position:relative;overflow:hidden;border-radius:3px;background:#ede4d9;transition:box-shadow .3s}
+.documentation-grid img{object-fit:cover;transition:transform .4s}
+@media(min-width:1600px){.documentation-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1023px){.documentation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* -------------------------------------------------------------------------- */
+/* 6. Mobile polish                                                           */
+/* -------------------------------------------------------------------------- */
+.categories button{flex:0 0 auto;scroll-snap-align:start}
+.searchbox input{font-size:16px}
+.searchbox button,.close-button{min-width:44px;min-height:44px}
+@media(max-width:1150px){
+ .categories{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;scroll-padding-inline:16px;padding-inline:16px;gap:8px;overscroll-behavior-x:contain}
+ .categories::-webkit-scrollbar{display:none}
+ .categories button{min-height:44px;font-size:14px;padding:8px 16px}
+ .categories button:focus-visible{outline-offset:-4px}
+ .save-button{width:44px;height:44px}
+ .select-control select{min-height:44px}
+}
+@media(max-width:767px){
+ .product-photo{aspect-ratio:1/1}
+ .card-info{padding:12px;min-height:120px}
+ .card-title h3{font-size:26px}
+ .card-meta{font-size:12px}
+ .card-meta>span:last-child{font-size:12px;flex-shrink:1;line-height:1.4}
+ .price{font-size:14px}
+ .save-button{width:44px;height:44px;top:8px;right:8px}
+ .save-button svg{width:20px;height:20px}
+ .filter-controls{gap:8px}
+ .select-control select{height:48px;font-size:14px;padding:8px 4px}
+ .select-control>span{display:block;font-size:14px}
+ .searchbox{height:48px;padding-right:4px}
+ .searchbox input{font-size:16px}
+ .result-count{font-size:14px}
+ .result-count button{min-height:44px;font-size:14px}
+ .text-button,.remove-button{min-height:44px;min-width:44px}
+
+ .dialog:not(.drawer){width:100vw;max-width:100vw;max-height:94vh;max-height:94dvh;margin:auto 0 0}
+ .dialog:not(.drawer) .dialog-surface{max-height:94vh;max-height:94dvh;border-radius:18px 18px 0 0;animation:none}
+ .product-detail{display:block}
+ .detail-photo{width:100%;aspect-ratio:5/4;height:auto;min-height:0;max-height:42dvh}
+ .detail-info{width:100%;min-height:0;padding:24px 24px max(24px,env(safe-area-inset-bottom))}
+ .detail-info .order-actions{margin-top:24px}
+ .detail-bottom{font-size:14px}
+ .dialog .close-button{top:12px;right:12px}
+ .drawer .dialog-surface{padding-bottom:max(28px,env(safe-area-inset-bottom))}
+
+ footer{padding-bottom:max(24px,env(safe-area-inset-bottom))}
+ .toast{bottom:max(16px,env(safe-area-inset-bottom))}
+ .dialog-message{padding-bottom:max(12px,env(safe-area-inset-bottom))}
+ .cinematic-hero{height:92svh;min-height:640px}
+ .hero-content{padding-top:48px;padding-bottom:40px}
+ .hero-logo-reveal{width:min(84vw,340px)}
+ .hero-tagline-reveal{width:min(78vw,305px)}
+ .documentation{padding:0 16px 45px}
+ .documentation h2{font-size:38px;margin-bottom:20px}
+ .documentation-grid{gap:16px}
+ .catalog-header p{font-size:14px}
+ .footer-bottom{font-size:12px}
+ .preloader-logo{width:155px}
+ .fold-seam{opacity:.45}
+}
+@media(max-width:599px){.documentation-grid{grid-template-columns:1fr}}
+
+/* Touch-only devices should never inherit desktop hover presentation. */
+@media(hover:none){
+ .product-card:hover{box-shadow:none}
+ .hero-cta:hover{transform:none}
+ .categories button:not(.active):hover{background:transparent;color:#65504a}
+}
+
+/* -------------------------------------------------------------------------- */
+/* 7. Reduced motion                                                          */
+/* -------------------------------------------------------------------------- */
+@media(prefers-reduced-motion:reduce){
+ .brand-preloader{display:none}
+ .opening-sequence .hero-content,
+ .opening-sequence .hero-edge-frame,
+ .opening-sequence .hero-ornament-layer,
+ .opening-sequence .hero-floral-layer,
+ .opening-sequence .hero-logo-reveal,
+ .opening-sequence .hero-tagline-reveal,
+ .opening-sequence .hero-cta-reveal,
+ .opening-sequence .hero-opening-note,
+ .opening-sequence .hero-divider,
+ .opening-sequence .hero-scroll-wrapper{visibility:visible!important;opacity:1!important;translate:none!important;animation:none!important}
+ .opening-sequence .hero-edge-frame{opacity:.5!important}
+ .opening-sequence .hero-divider{scale:1!important}
+ .opening-sequence .hero-gold-wave{clip-path:none!important}
+ .product-card{translate:none!important}
+ .product-card:hover .product-photo img,.documentation-grid figure:hover img{transform:none!important}
+ .wrap-fold{transition:none!important}
+ .card-open:active{transform:none!important}
+}

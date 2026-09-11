@@ -1,0 +1,23 @@
+{
+  "status": "popup-animation-revision-complete",
+  "implemented": [
+    "global-popup-width-constrained-grid",
+    "desktop-45-55-detail-layout",
+    "tablet-768-1099-stacked-detail",
+    "mobile-bottom-sheet-preserved",
+    "bouquet-wrap-unfold-opening",
+    "diagonal-gold-fold-seam",
+    "opening-on-every-refresh",
+    "deep-link-dialog-deferred-until-intro-done",
+    "staggered-hero-entrance",
+    "reduced-motion-preserved",
+    "existing-mobile-ux-preserved"
+  ],
+  "qa": {
+    "data": "passed: 94 products; 8 categories; all configured product image paths resolve",
+    "typescriptSyntax": "passed via TypeScript parser",
+    "cssParsing": "passed via CSS parser",
+    "popupArchitecture": "desktop >=1100px two-column minmax(0); 768-1099px stacked; <=767px bottom-sheet",
+    "build": "not independently rerun after final patch because npm ci timed out in this container"
+  }
+}
